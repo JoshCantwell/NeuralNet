@@ -1,7 +1,6 @@
 #include "Net.h"
 #include <iostream>
 
-class Neuron {};
 
 typedef std::vector<Neuron> Layer;
 

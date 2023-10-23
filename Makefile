@@ -7,7 +7,7 @@ CC = g++
 CXXFLAGS= -std=c++11 -g -Wall
 
 #.o files go in object file
-OBJECTS = Net.o
+OBJECTS = Net.o Neuron.o
 HEADERS := $(shell find . -path ./test -prune -o -name "*.h" -print)
 
 main: main.o $(OBJECTS)

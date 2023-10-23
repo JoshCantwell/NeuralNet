@@ -2,8 +2,7 @@
 #define Net_h
 
 #include <vector>
-
-class Neuron;
+#include "Neuron.h"
 
 typedef std::vector<Neuron> Layer;
 
